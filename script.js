@@ -8,4 +8,4 @@ for (let j = 0; j < arrText.length; j++) {
   arrText[j] = number/100;
 }
 const totalAmount = arrText.reduce((partialSum, a) => partialSum + a, 0);
-alert('Montant total dépensé : ' + totalAmount.toFixed(2) + '€')
+alert('Total : ' + totalAmount.toFixed(2) + '€')
